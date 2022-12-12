@@ -2,7 +2,7 @@
 
 # Specify a name and a tag
 algorithm_name=huggingface-pytorch-extended
-tag=1.10.2-transformers4.25.1-gpu-py38-cu113-ubuntu20.04
+tag=transformers4.25.1-gpu-py310
 
 account=$(aws sts get-caller-identity --query Account --output text)
 
